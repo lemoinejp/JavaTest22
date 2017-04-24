@@ -1,0 +1,10 @@
+applications:
+- path: target/JavaCloudantApp.war
+  memory: 512M
+  instances: 1
+  domain: eu-gb.mybluemix.net
+  name: JavaTest22
+  host: JavaTest22
+  disk_quota: 1024M
+  services:
+  - JavaTest22-cloudantNoSQLDB
